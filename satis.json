@@ -1,0 +1,12 @@
+{
+  "name": "Emagedev Repository",
+  "homepage": "https://packages.emagedev.com",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/Emagedev/Yanws" },
+    { "type": "vcs", "url": "https://github.com/Emagedev/Morpher" },
+    { "type": "vcs", "url": "https://github.com/Emagedev/Trello" },
+    { "type": "vcs", "url": "https://github.com/Emagedev/Utils" },
+    { "type": "vcs", "url": "https://github.com/Emagedev/CacheControl" }
+  ],
+  "require-all": true
+}
