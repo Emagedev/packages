@@ -2,7 +2,9 @@ language: php
 php: 7.0
 before_script: composer install --no-dev
 node_js: 7
-install: npm install -g firebase-tools
+install:
+  - npm install -g firebase-tools
+  - composer config -g github-oauth.github.com $GITHUB-TOKEN
 script:
   - php bin/satis build satis.json public
-  - firebase deploy - project packages-emagedev - token $FIREBASE_TOKEN
+  - firebase deploy - project packages-emagedev - token $FIREBASE-TOKEN
