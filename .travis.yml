@@ -7,4 +7,4 @@ install:
 - composer config -g github-oauth.github.com $GITHUB_TOKEN
 script:
 - php bin/satis build satis.json public
-- firebase deploy - project packages-emagedev - token $FIREBASE_TOKEN
+- firebase deploy -project=packages-emagedev --token=$FIREBASE_TOKEN
